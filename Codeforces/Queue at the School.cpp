@@ -3,6 +3,7 @@ using namespace std;
 int main() {
     int n,t;
     cin>>n>>t;
+    
     string sequence;
     cin>> sequence;
     for(int i =0;i<t;i++) {
@@ -13,5 +14,6 @@ int main() {
                    j++;
             }
         }
-    }cout<<sequence<<endl;
+    }
+    cout<<sequence<<endl;
 }
